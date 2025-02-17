@@ -23,6 +23,9 @@
     "migrate:up": "ts-node ./node_modules/typeorm/cli.js migration:run",
     "migrate:down": "ts-node ./node_modules/typeorm/cli.js migration:revert"
   },
+  "engines": {
+    "node": "23.x"
+  },
   "dependencies": {
     "@faker-js/faker": "^9.4.0",
     "@nestjs/common": "^10.0.0",
